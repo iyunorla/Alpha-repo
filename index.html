@@ -1,15 +1,362 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title >projectx</title>
-    </head>
-    <body>
-        <h1>Hello world!</h1>
-        <h2>Hello world!</h2>
-        <h3>Hello world!</h3>
-        <h4>Hello world!</h4>
-        <h5>Hello world!</h5>
-        <h6>Hello world!</h6>
-        <p>Lorem ipsum dolor sit amet...<a href="portfolio/project-one.html">CLICK HERE </a>!</p>
-<p>To view my project on HTA Academy <a href="../about.html"> CLICK HERE </a>!</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project X</title>
+        <meta name="description" content="Batch B Web Project">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link id="thor" rel="stylesheet" href="assets/css/light.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+        <link rel="stylesheet" href="assets/owl carousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/owl carousel/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+</head>
+<body>
+    <header>
+        <div id="header" class="top">
+          <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="logo"></a>
+          <nav class="navigation">
+                    <ul>
+                        <li><a href="#intro"><i class="fa-solid fa-house"></i> Intro</a></li>
+                        <li><a href="#about"><i class="fa-solid fa-briefcase"></i> About</a></li>
+                        <li><a href="#why choose us"><i class="fa-solid fa-hand-holding-heart"></i> why choose us</a></li>
+                        <li><a href="#gallery"><i class="fa-regular fa-image"></i> Gallery</a></li>
+                        <li><a href="#location"><i class="fa-solid fa-map-location-dot"></i> Location</a></li>
+                        <li><a href="#contact"><i class="fa-solid fa-headphones"></i> Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="reiko">Get Started <i class="fa-solid fa-rocket"></i></a>
+                <a class="burger" href="#"><i class="fa-solid fa-bars"></i></a>
+             <div id="whe" >
+                   <button id="light" class="mode" onclick="sun()" style="display: none;"><i class="fa-solid fa-sun"></i></button>
+                   <button id="dark" class="mode" onclick="moon()"><i class="fa-solid fa-moon"></i></button>    
+             </div>
+            </div>
+     </header>
+
+     <main>
+    <section id="intro" class="slider">
+            <div class="slide-banner owl-carousel">
+            <div class="slide">
+            <div class="banner-slide"><img src="/assets/images/slidee.jpg" alt="slide1"></div>
+            <div class="content">
+                 <h6 class="subtitle">Welcome to Lorem ipsum</h6>
+                 <h4 class="title">Impossible is Nothing. In fact, Impossible is Nonsense.</h4>
+            <div class="slider-button">
+                <button>Discover More</button>
+              <button>Get Estimate</button>
+               <a href="#" class="ton"><i class="fa-solid fa-computer-mouse"></i></a>  
+            </div>
+            </div> 
+            </div>
+            <div class="slide">
+            <div class="banner-slide"><img src="/assets/images/slideo.avif" alt="slide2"></div>
+            <div class="content">
+                 <h6 class="subtitle">Welcome to Lorem ipsum</h6>
+                <h4 class="title">Impossible is Nothing. In fact, Impossible is Nonsense.</h4>
+                <div class="slider-button">
+                <button>Discover More</button>
+                <button>Get Estimate</button>
+                 <a href="#" class="ton"><i class="fa-solid fa-computer-mouse"></i></a>  
+            </div>
+            </div>
+            </div>
+            <div class="slide">
+            <div class="banner-slide"><img src="/assets/images/slidet.jpg" alt="slide3"></div>
+            <div class="content">
+                <h6 class="subtitle">Welcome to Lorem ipsum</h6>
+               <h4 class="title">Impossible is Nothing. In fact, Impossible is Nonsense.</h4>
+            <div class="slider-button">
+                <button>Discover More</button>
+                <button>Get Estimate</button>
+                 <a href="#" class="ton"><i class="fa-solid fa-computer-mouse"></i></a>  
+            </div>
+            </div>
+            </div>
+            </div>
+    </section>
+
+
+
+      <!-- <section id="intro" class="slider">
+        <div class="container">
+            <div class="slide-banner owl-carousel">
+                <section class="slidee" style="background-image: url(/assets/images/slidee.jpg);">
+                  <h6 class="subtitle">Welcome to Lorem ipsum</h6>
+                  <h4 class="title">Impossible is Nothing. In fact, Impossible is Nonsense.</h4>
+                <div class="slider-button">
+                <button>Discover More</button>
+              <button>Get Estimate</button>
+              <a a href="#" class="ton"><i class="fa-solid fa-computer-mouse"></i></a>  
+                </div>
+                <div class="slidee" style="background-image: url(/assets/images/slideo.avif);">
+                    <h6 class="subtitle">Welcome to Lorem ipsum</h6>
+                    <h4 class="title">Impossible is Nothing. In fact, Impossible is Nonsense.</h4>
+                <div class="slider-button">
+                <button>Discover More</button>
+              <button>Get Estimate</button>
+              <a a href="#" class="ton"><i class="fa-solid fa-computer-mouse"></i></a>
+                </div>
+                <div class="slidee" style="background-image: url(/assets/images/slidet.jpg);">
+                  <h6 class="subtitle">Welcome to Lorem ipsum</h6>
+               <h4 class="title">Impossible is Nothing. In fact, Impossible is Nonsense.</h4>
+                <div class="slider-button">
+                <button>Discover More</button>
+              <button>Get Estimate</button>
+              
+                </div>
+            </div>
+         </div>
+        </section> -->
+
+
+       <section id="about" class="gridlock" style="margin-top: 70px; margin-bottom: 70px;">
+              <div>
+                 <h6 class="subtitle">Who We Are</h6>
+                 <h4 class="title">About Lorem Ipsum</h4>
+                 <img class="overview-img dance" src="/assets/images/girlp.jpg" alt="girlp">
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, sequi? Recusandae eos aspernatur mollitia unde. Consequatur provident, tenetur voluptas odio officia ullam nam error pariatur animi optio, quasi modi cupiditate.</p> 
+
+                  <p style="padding-bottom:45px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, sequi? Recusandae eos aspernatur mollitia unde. Consequatur provident, tenetur voluptas odio officia ullam nam error pariatur animi optio, quasi modi cupiditate.</p> 
+                 <div class="atg">
+                  <a  class="gta"href="#">Discover More</a>
+               </div>
+              </div>
+           <div>
+             <img class="overview-img sp jump" src="/assets/images/girlp.jpg" alt="girlp">
+           </div>
+        </section>
+        <section id="why choose us" class="gridlock" style="margin-top: 70px; margin-bottom: 70px;">
+             <div>
+               <h6 class="subtitle webview">What Make Us Tick</h6>
+                  <h4 class="title webview">Why Choose Lorem Ipsum</h4>
+               <img class="overview-img" src="/assets/images/girlp.jpg" alt="girlp">
+             </div>
+               <div>
+                  <h6 class="subtitle mobile">What Make Us Tick</h6>
+                  <h4 class="title mobile">Why Choose Lorem Ipsum</h4>
+                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, sequi? Recusandae eos aspernatur mollitia unde. Consequatur provident, tenetur voluptas odio officia ullam nam error pariatur animi optio, quasi modi cupiditate.</p> 
+ 
+                    <p style="padding-bottom:45px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, sequi? Recusandae eos aspernatur mollitia unde. Consequatur provident, tenetur voluptas odio officia ullam nam error pariatur animi optio, quasi modi cupiditate.</p> 
+                    <div class="atg">
+                    <a  class="gta"href="#">Discover More</a>
+                  </div>
+                 </div>
+         </section>
+
+        <section id="gallery">
+            <div class="center">
+                  <h6 class="subtitle">What We See</h6>
+                  <h4 class="title">Our View</h4>
+            </div>
+
+         <div class="grid">
+         <div class="pic">
+            <img src="assets/images/nails.avif" alt="nails">
+         </div>
+         <div class="pic">
+            <img src="assets/images/heels.avif" alt="heels">
+         </div>
+         <div class="pic">
+            <img src="assets/images/lip.avif" alt="lip">
+         </div>
+         <div class="pic">
+            <img src="assets/images/red.avif" alt="red">
+         </div>
+         <div class="pic">
+            <img src="assets/images/rice.avif" alt="rice">
+         </div>
+         <div class="pic">
+            <img src="assets/images/yellow.avif" alt="yellow">
+         </div>
+         <div class="pic">
+            <img src="assets/images/pop.avif" alt="pop">
+         </div>
+         <div class="pic">
+            <img src="assets/images/cake.avif" alt="cake">
+         </div>
+        </div>
+
+        <section class="note">
+         <div class="owl-carousel">
+            <div class="back"><img src="assets/images/nails.avif" alt="nails"></div>
+            <div class="back"><img src="assets/images/heels.avif" alt="heels"></div>
+            <div class="back"><img src="assets/images/lip.avif" alt="lip"></div>
+            <div class="back"><img src="assets/images/pop.avif" alt="pop"></div>
+            <div class="back"><img src="assets/images/nails.avif" alt="nails"></div>
+            <div class="back"><img src="assets/images/yellow.avif" alt="yellow"></div>
+            <div class="back"><img src="assets/images/pop.avif" alt="pop"></div>
+            <div class="back"><img src="assets/images/lip.avif" alt="lip"></div>
+          </div>
+       </section>
+        <div class="view">
+         <button class="button">View More</button>
+        </div>
+        </section>
+
+        <section id="location" style="margin-top: 30px; margin-bottom: 30px;">
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7677630531043!2d3.4619028734820962!3d6.423877624316137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5a6bc7be1db%3A0x47150d51815b13d4!2sTwinwaters%20Lagos!5e0!3m2!1sen!2sng!4v1733411422189!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+        </section>
+
+       <section id="contact">
+           <h6 class="subtitle">Our Contact</h6>
+           <h4 class="title">For More Enquiries</h4>
+           <div class="cont">
+            <div class="myform mo">
+               <div class="name">
+                  <label for="name"></label>
+                  <input type="name" name="name" id="name" placeholder="Name">
+               </div>
+               <div class="email">
+                  <label for="email"></label>
+                  <input type="email" name="email" id="email" placeholder="Email Address">
+               </div>
+               <div class="phone">
+                  <label for="phone"></label>
+                  <input  type="phone" name="phone" id="phone" placeholder="Phone">
+               </div>
+               <div class="subject">
+                   <label for="subject"></label>
+                   <input type="subject" name="subject" id="subject" placeholder="Subject">
+               </div>
+                <div class="comment">
+                   <label for="write"></label>
+                   <input type="write" name="write" id="write" placeholder="How can we help you?Feel free to get in touch!">
+                </div>
+                </div>
+                <div class="gte">
+               <a class="get" href="#">Get In Touch</a>
+               </div>
+           <div class="info">
+           <p><strong>Hotlines:</strong> 08090907481&08113367052</p>
+           <p><strong>Email:</strong> feyintoluiyunola@gmail.com</p>
+           <p><strong>Office Location:</strong> Sanni Omotedo Street, Magboro Ogun State.</p>
+         </div>
+         <div class="myform mob">
+         <div class="name">
+            <label for="name"></label>
+            <input type="name" name="name" id="name" placeholder="Name">
+         </div>
+         <div class="email">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Email Address">
+         </div>
+         <div class="phone">
+            <label for="phone"></label>
+            <input  type="phone" name="phone" id="phone" placeholder="Phone">
+         </div>
+         <div class="subject">
+             <label for="subject"></label>
+             <input type="subject" name="subject" id="subject" placeholder="Subject">
+         </div>
+         </div>
+         </div>
+          <div class="comment mob">
+             <label for="write"></label>
+             <input type="write" name="write" id="write" placeholder="How can we help you?Feel free to get in touch!">
+          </div>
+       
+     
+      <div class="kep">
+          <a class="get" href="#">Get In Touch</a>
+         </div>
+      </section>
+       </section>
+
+     </main>
+
+<footer class="footer">
+     <div class="foot">
+     <div>
+       <h4 class="foot-title">Our Word Is Our Bond</h4>
+       <p>Lorem ipsum dolor sit amet si...</p>
+       <a href="https://www.facebook.com" target="_blank" ></a><i class="fa-brands fa-facebook-f sonic"></i>
+       <a href="https://www.twitter.com"target="_blank"></a><i class="fa-brands fa-x-twitter sonic"></i>
+       <a href="https://www.linked in.com"target="_blank"></a><i class="fa-brands fa-linkedin-in sonic"></i>
+       <a href="https://www.instagram.com"target="_blank"></a><i class="fa-brands fa-instagram sonic"></i>
+       <a href="https://www.tiktok.com" target="_blank"></a><i class="fa-brands fa-tiktok sonic"></i>
+       <a href="https://www.threads.com"target="_blank"></a><i class="fa-brands fa-threads sonic"></i>
+     </div>
+    <div class="foot1"> 
+      <h4>Company</h4>
+      <ul class="foot-link">
+         <li><a class="myfot" href="#">Intro</a></li>
+        <li><a class="myfot" href="#">About</a></li>
+        <li><a class="myfot" href="#">Location</a></li> 
+        <li><a class="myfot" href="#">Contact</a></li> 
+     </ul>
+    </div>
+    <div class="foot2">
+       <h4>Resources</h4>
+       <ul class="foot-link">
+         <li><a class="myfot" href="#">Blog</a></li> 
+         <li><a class="myfot" href="#">Forum</a></li> 
+         <li><a class="myfot" href="#">Gallery</a></li> 
+         <li><a class="myfot" href="#">FAQ</a></li>
+     </ul>
+    </div>
+    <div class="foot3">
+       <h4>Quick Links</h4>
+       <ul class="foot-link" >
+         <li><a class="myfot" href="#">Cookie Policy</a></li>
+         <li><a class="myfot" href="#"> Legal</a></li>
+         <li><a class="myfot" href="#">Privacy Policy</a></li> 
+         <li><a class="myfot" href="#">Terms of Use</a></li> 
+       </ul>
+    </div>
+    </div>
+    <a href="#header" class="arrow" ><i class="fa-solid fa-circle-up"></i></a>
+    <div class="copyright">
+      <p>&copy;2024 Lorem Ipsum.All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/owl carousel/owl.carousel.min.js"></script>
+  <script>
+   $(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+         autoplay: true ,
+         dots: true ,
+         nav: true ,
+         autoplaySpeed: 5000, 
+         margin: 5,
+         navText: ['Prev Next'],
+         loop: true ,
+      
+         responsive : {  
+         0:{
+            items: 1,
+            loop: true,
+        },
+        600:{
+         items: 1,
+        },
+        1000:{
+         items: 5,
+        },
+        
+         },  
+  })     
+   });
+   
+   $(".slide-banner").owlCarousel({
+	items: 1,
+	autoplayTimeout: 6000,
+   autoplaySpeed: 1000,
+   autoplay: true,
+   loop: true,
+   // animateOut: 'fadeOut',
+   //  animateIn: 'fadeIn',
+});
+ 
+  
+   
+   
+  </script>
+</body>
+</html>
